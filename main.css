@@ -1,0 +1,104 @@
+(https://fonts.google.com/specimen/Red+Hat+Display)
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Red Hat Display", sans-serif;
+   background-image: url(images/pattern-background-mobile.svg);
+background-size: cover;
+background-repeat: repeat;
+    
+}
+img{max-width: 100%; 
+
+border-top-left-radius: 15px;
+border-top-right-radius: 15px;
+}
+section{
+width: 320px;
+ height: 500px;
+ border: 1px solid transparent;
+ border-radius: 15px;
+ margin: 100px auto;
+ background-color: white;
+ 
+}
+
+.text{
+    text-align: center;
+}
+
+p{
+    font-size: 16px;
+}
+
+.nowrap{
+    white-space: nowrap;
+}
+
+.plans{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid hsl(225, 100%, 98%);
+    width: 280px;
+    height:;
+    height: auto;
+    gap: 1rem;
+    border-radius: 1.5rem;
+    background-color: hsl(225, 100%, 98%);
+    margin: auto;
+   
+}
+
+.music{
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+    
+}
+
+.link{
+    margin-top: 1.7rem; 
+    margin-left: 1rem;
+    font-size: 12px;
+}
+
+.btn{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+
+.proceed{
+    margin-bottom: 0.9rem;
+    height: 50px;
+    color: white;
+    background-color:hsl(245, 75%, 52%)
+    ;
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 0px 10px 35px hsl(228, 13%, 63%)  ;
+}
+
+.five, .cancel{
+    color: hsl(228, 13%, 63%) ;
+}
+
+.cancel{
+    background-color: transparent;
+    border: none;
+}
+.info{
+    color: hsl(228, 13%, 63%);
+}
+
+@media screen and (min-width:680px) {
+    body{
+        background-image: url(images/pattern-background-desktop.svg);
+    }
+    
+}
+
